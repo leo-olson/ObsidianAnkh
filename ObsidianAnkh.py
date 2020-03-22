@@ -23,7 +23,7 @@ ports2 = [443]
 uports = [5556,7000]
 
 
-
+# Read the ufw logs
 def readLogs(thefile):
     thefile.seek(0,2)
     while True:
